@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dot-green {
+  height: 20px;
+  width: 20px;
+  background-color: #5cb85c;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.dot-red {
+  height: 20px;
+  width: 20px;
+  background-color: #d9534f;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+a.card,
+a.card:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}

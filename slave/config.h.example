@@ -1,0 +1,5 @@
+// Photoresistor threshold configuration
+#define PHOTORESISTOR_MIN 150
+#define PHOTORESISTOR_MAX 300
+#define PARKING_NAME "PARKING_NAME"
+#define FLASK_URL "http://FLASK_URL"

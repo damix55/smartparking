@@ -1,0 +1,6 @@
+mysql-connector-python
+PyYAML
+requests
+flask-socketio
+flask
+schedule
