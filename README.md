@@ -12,6 +12,23 @@
   - Close a parking lot
 
 
+## Photos
+
+<img src="react/public/img/niguarda.jpg" style="zoom: 20%;" />
+
+<img src="react/public/img/olgiate.jpg" style="zoom: 50%;" />
+
+<img src="images/back.jpg" alt="MQTT" style="zoom: 20%;" />
+
+
+
+## Demonstration
+
+https://drive.google.com/file/d/10leqn9YKZnGJIFO-FGl50tYBn3mypEFC/view?usp=sharing
+
+https://drive.google.com/file/d/1RcJE63HJqObCmHVKbIIg2c1iB5pXCUZi/view?usp=sharing
+
+
 
 ## **Materials**
 
@@ -88,7 +105,7 @@
 
 ### Data Flow
 
-<img src="images/Architecture.png" alt="Architecture" style="zoom:50%;" />
+<img src="images/architecture.png" alt="Architecture" style="zoom:50%;" />
 
 - The Master writes its information (name, IP address, position…) in a **MySQL** table and logs data on **InfluxDB** (*total number of parkings*, *free parkings*...)
 
@@ -168,21 +185,3 @@
 2. The new network architecture developed allows to save power by **avoiding continuous polling**
 
     - Data are sent only when it’s necessary
-
-     
-
-## Photos
-
-<img src="react/public/img/niguarda.jpg" style="zoom: 20%;" />
-
-<img src="react/public/img/olgiate.jpg" style="zoom: 50%;" />
-
-<img src="images/back.jpg" alt="MQTT" style="zoom: 20%;" />
-
-
-
-## Demonstration
-
-https://drive.google.com/file/d/10leqn9YKZnGJIFO-FGl50tYBn3mypEFC/view?usp=sharing
-
-https://drive.google.com/file/d/1RcJE63HJqObCmHVKbIIg2c1iB5pXCUZi/view?usp=sharing
