@@ -56,7 +56,7 @@ https://drive.google.com/file/d/1RcJE63HJqObCmHVKbIIg2c1iB5pXCUZi/view?usp=shari
 
 
 
-## How does it works?
+## How does it work?
 
 - A **photoresistor** is placed under every parking to detect the presence of a car
 
